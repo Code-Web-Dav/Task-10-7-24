@@ -1,0 +1,57 @@
+#Disp{
+    padding: 8px;
+    background-color:rgba(220, 220, 220, 0.771);
+}
+#Top{
+    
+    border: 1px solid;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: Move;
+    animation-duration: 10s;
+
+    margin-top: 60px;
+    padding: 10px;
+}
+#inp{
+  
+    margin-top: 20px;
+  
+}
+input[type="text"]{
+    margin-top: 10px;
+    width: 760px;
+    padding: 10px;
+}
+input[type='checkbox'] {
+    accent-color:rgb(198, 6, 198);
+}
+#subs{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding: 5px;
+  
+}
+button{
+    padding: 10px;
+    text-align: center;
+    width: 790px;
+    font-weight: bold;
+    border: none;
+    color: whitesmoke;
+    opacity: 0.5;
+    background-color: rgb(14, 193, 14);
+}
+button:hover{
+    opacity: 0.9;
+}
+@keyframes Move {
+ 
+    from {margin-left:200px}
+    to {margin-left:350px}
+
+   
+}
